@@ -1,55 +1,56 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    background-image: linear-gradient(#f0e1e100,#4d4d4d),url("../images/tip.jpg");
-    background-size: cover;
-    color: black;
-   height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(#f0e1e100, #4d4d4d),
+    url("../images/tip.jpg");
+  background-size: cover;
+  color: black;
+  height: 100vh;
 }
 
 h1 {
-    align-self: center;
-    padding-bottom: 10%;
+  align-self: center;
+  padding-bottom: 10%;
 }
 
 .tips {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    border: 1px solid black;
-    margin: 7% 0;
-    padding: 6%;
-    background-color: ghostwhite;
-    opacity: 0.6;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border: 1px solid black;
+  margin: 7% 0;
+  padding: 6%;
+  background-color: ghostwhite;
+  opacity: 0.6;
 }
 
 #display {
-    border: 1px solid black;
-    padding: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  border: 1px solid black;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #input1 {
-    width: 20vw;
-    height: 4vh;
+  width: 20vw;
+  height: 4vh;
 }
 
 #input2 {
-    width: 20vw;
-    height: 4vh;
+  width: 20vw;
+  height: 4vh;
 }
 
 #btn {
-    width: 20vw;
-    height: 5vh;
-    align-self: center;
-    background-color: #a1a1a1;
-    border-color: #a1a1a1;
+  width: 20vw;
+  height: 5vh;
+  align-self: center;
+  background-color: #a1a1a1;
+  border-color: #a1a1a1;
 }
