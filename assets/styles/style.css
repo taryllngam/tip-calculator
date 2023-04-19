@@ -6,8 +6,8 @@
 body {
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(#f0e1e100, #4d4d4d),
-    url("../images/tip.jpg");
+  background-image: 
+  linear-gradient(#f0e1e100, #4d4d4d), url("../images/tip.jpg");
   background-size: cover;
   color: black;
   height: 100vh;
