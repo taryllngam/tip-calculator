@@ -7,6 +7,9 @@ btn.addEventListener('click', finalTip)
 function tipAmount () {
   const input1 = parseInt(document.getElementById('input1').value)
   const input2 = parseInt(document.getElementById('input2').value)
+  if(!input1 && !input2){
+    alert('Please input amount in both input fields')
+  }
   return (input1 * input2) / 100
 }
 
